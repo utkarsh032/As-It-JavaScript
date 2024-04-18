@@ -892,7 +892,7 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 
 
 // Reduce......
-const dayInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+// const dayInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
 // const RDayinMonth = dayInMonth.reduce((acc, cur) => {
 //   return acc + cur
@@ -1041,4 +1041,44 @@ const dayInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 // console.log(Text.innerText)  //"innerText" will only return the visible text content, excluding the hidden text.
 // console.log(Text.textContent) // "textContent" will return the complete text content, including the hidden text.
 
+// .......getAttribute & setAttribute
+
+// const h1 = document.querySelector('h1')
+// const paragraph = document.querySelector('p')
+
+// console.log(paragraph.innerHTML);
+
+// paragraph.innerHTML = '<h4>Hiii</h4>'
+
+//.....Styling in JavaScript
+
+// const head = document.getElementById('style')
+var head = document.querySelectorAll('h1');
+// head.style.backgroundColor = 'black'
+// head.style.color = 'teal'
+head.forEach(function (h1) {
+  h1.style.backgroundColor = 'black'
+  h1.style.color = 'teal'
+})
+document.body.style.backgroundColor = "Teal"
+
+// for (i = 0; i <= head.length; i++) {
+//   head[i].style.backgroundColor = 'black'
+//   head[i].style.color = 'teal'
+// }
+
+// ...Access Elements using JavaScript
+
+// ...Append and AppendChild
+
+const container = document.querySelector('#container')
+const value = document.querySelector('#card')
+value.append('23')
+value.append(document.createElement('div'))
+
+const textNode = document.createTextNode('text');
+value.appendChild(textNode)
+
+
+// container.appendChild(h1.cloneNode(true))
 
