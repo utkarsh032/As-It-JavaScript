@@ -1071,14 +1071,61 @@ document.body.style.backgroundColor = "Teal"
 
 // ...Append and AppendChild
 
-const container = document.querySelector('#container')
-const value = document.querySelector('#card')
-value.append('23')
-value.append(document.createElement('div'))
+// const container = document.querySelector('#container')
+// const value = document.querySelector('#card')
+// value.append('23')
+// value.append(document.createElement('div'))
 
-const textNode = document.createTextNode('text');
-value.appendChild(textNode)
+// const textNode = document.createTextNode('text');
+// value.appendChild(textNode)
 
 
 // container.appendChild(h1.cloneNode(true))
 
+//.....create Element
+
+// const firstImage = document.querySelector('#img')
+// const Container = document.querySelector('.container')
+// const newDiv = document.createElement("div");
+
+// for (i = 1; i <= 50; i++) {
+//   const newImg = firstImage.cloneNode()
+//   newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+//   newDiv.append(newImg)
+// }
+
+// document.body.insertBefore(newDiv, Container)
+
+// const square  = document.createElement('div')
+// square.style.width = '30vh'
+// square.style.height = '30vh'
+// square.style.background = "black"
+// square.style.borderRadius="50%"
+// square.style.border="4px solid red"
+
+// document.body.insertBefore(square,newDiv)
+
+// const newDiv = document.createElement('div') //created new div tag
+
+// newDiv.classList.add('square') //pass class to div tag
+
+const container = document.querySelector('.container')
+container.style.display = 'flex'
+
+for (i = 1; i <= 10; i++) {
+  const imgContainer = document.createElement('div')
+  imgContainer.classList.add('img-container')
+
+  const newImg = document.createElement('img')
+  newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+
+  const paragraph = document.createElement('p')
+  paragraph.innerText = i
+
+  imgContainer.append(newImg, paragraph)
+  container.append(imgContainer)
+}
+
+container.remove() //this method is used for remove element.
+
+// .......
