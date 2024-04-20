@@ -1053,14 +1053,14 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 //.....Styling in JavaScript
 
 // const head = document.getElementById('style')
-var head = document.querySelectorAll('h1');
-// head.style.backgroundColor = 'black'
-// head.style.color = 'teal'
-head.forEach(function (h1) {
-  h1.style.backgroundColor = 'black'
-  h1.style.color = 'teal'
-})
-document.body.style.backgroundColor = "Teal"
+// var head = document.querySelectorAll('h1');
+// // head.style.backgroundColor = 'black'
+// // head.style.color = 'teal'
+// head.forEach(function (h1) {
+//   h1.style.backgroundColor = 'black'
+//   h1.style.color = 'teal'
+// })
+// const Body = document.body.style.backgroundColor = "Teal"
 
 // for (i = 0; i <= head.length; i++) {
 //   head[i].style.backgroundColor = 'black'
@@ -1109,23 +1109,47 @@ document.body.style.backgroundColor = "Teal"
 
 // newDiv.classList.add('square') //pass class to div tag
 
-const container = document.querySelector('.container')
-container.style.display = 'flex'
+// const container = document.querySelector('.container')
+// container.style.display = 'flex'
 
-for (i = 1; i <= 10; i++) {
-  const imgContainer = document.createElement('div')
-  imgContainer.classList.add('img-container')
+// for (i = 1; i <= 10; i++) {
+//   const imgContainer = document.createElement('div')
+//   imgContainer.classList.add('img-container')
 
-  const newImg = document.createElement('img')
-  newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
+//   const newImg = document.createElement('img')
+//   newImg.src = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${i}.png`
 
-  const paragraph = document.createElement('p')
-  paragraph.innerText = i
+//   const paragraph = document.createElement('p')
+//   paragraph.innerText = i
 
-  imgContainer.append(newImg, paragraph)
-  container.append(imgContainer)
-}
+//   imgContainer.append(newImg, paragraph)
+//   container.append(imgContainer)
+// }
 
-container.remove() //this method is used for remove element.
+// container.remove() //this method is used for remove element.
 
 // .......
+
+// Body
+// const Btn = document.querySelector('#btn')
+
+// function changeBg() {
+//   function colorCd(num) { return Math.random() * (num + 1) }
+//   const color = `rgb(${colorCd(255)}, ${colorCd(255)}, ${colorCd(255)})`
+//   document.body.style.backgroundColor = color
+// }
+// Btn.addEventListener('click', changeBg)
+
+// add card onClick
+
+const Circles = document.querySelector('.circles')
+const Circle = document.querySelector('.circle')
+
+function addCircle() {
+  const addCircle = document.createElement('div')
+  addCircle.classList.add('circle')
+
+  Circles.appendChild(addCircle)
+}
+
+Circle.addEventListener('click', addCircle)
