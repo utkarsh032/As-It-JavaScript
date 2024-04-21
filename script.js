@@ -1,6 +1,5 @@
 // console.log(firstName);
 
-
 // var firstName = 'Utkarsh'
 // console.log(firstName)
 
@@ -48,7 +47,6 @@
 // const msg = 'Hi I am Utkarsh Raj'
 // console.log(msg.split(' '))
 
-
 // ........................
 // const num = 4
 // console.log(Math.sqrt(num))
@@ -63,8 +61,6 @@
 // ........................
 // let h = prompt("Please enter height of rectangle")
 // let w = prompt("Please enter width of rectangle")
-
-
 
 // console.log(document.write('Area of rectangle : ', h * w))
 // console.log('Area of rectangle : ', h * w)
@@ -97,7 +93,6 @@
 // console.log(a >= b)
 // console.log(a < b)
 // console.log(a <= b)
-
 
 // ........................
 // const userAge = 22
@@ -235,7 +230,6 @@
 //     console.log('It is Satuarday!')
 // }
 
-
 // const userName = prompt('Enter your Name')
 // const userAge = prompt('Enter your age')
 
@@ -256,7 +250,6 @@
 // console.log(alphabet)
 // console.log(alphabet.toUpperCase())
 
-
 // const grade = prompt('Please Enter Your Grade')
 
 // switch (grade.toUpperCase()) {
@@ -275,7 +268,6 @@
 //   default:
 //     console.log('Prepare for Next Attempt!')
 // }
-
 
 // ......................
 // const age = 19
@@ -313,7 +305,6 @@
 
 // console.log(obj); // { prop: 'new value' }
 
-
 // Object.freeze(obj);
 
 // obj.prop = 'new value'; // Not allowed
@@ -337,7 +328,6 @@
 // Object.seal(employer) // seal function prevent delete but add
 // delete employer.salary // Not allowed
 // employer.salary = 83000 // allowed
-
 
 // freeze function
 
@@ -401,14 +391,12 @@
 // console.log(checkIncludes)
 // console.log(reverseArr)
 
-
 // const ticTacToe = [
 //   ['X', null, null],
 //   [null, null, 'O'],
 //   ['O', null, 'X']
 // ]
 // console.log(ticTacToe[0][0])
-
 
 // Define user1 object
 // const user1 = {
@@ -431,12 +419,10 @@
 // console.log(user1) // Output user1 object
 // console.log(user2) // Output user2 object with properties copied from user1
 
-
 // //spread operator
 // const user2 = { ...user1 }
 // console.log(user2)
 // console.log(user1)
-
 
 // const employe = ['user1', 'user2', 'user3', 'user4', 'user5']
 // // const newEmploye = { ...employe }
@@ -504,7 +490,6 @@
 //   }
 // }
 
-
 //.................................
 // do while loop
 
@@ -523,9 +508,9 @@
 
 // console.log("You entered the correct password!");
 
-// guess a secret number between 0-9 
+// guess a secret number between 0-9
 
-let num = ''
+let num = "";
 
 // do {
 //   num = prompt("Guess the secret number (0-9): ");
@@ -539,7 +524,6 @@ let num = ''
 // function myIntro() {
 //   console.log('My name is Utkarsh Raj')
 // }
-
 
 // function intro(username, place) {
 //   console.log(`${username} belongs to ${place}`)
@@ -585,7 +569,6 @@ let num = ''
 //   var age = 20
 // }
 
-
 // ............................
 
 // function myFunc() {
@@ -598,7 +581,6 @@ let num = ''
 // console.log(x)
 // console.log(y)
 // console.log(z)  //we cann't use variables out off the function that we define inside a function
-
 
 // const x = 8
 // let y = 9
@@ -614,19 +596,16 @@ let num = ''
 // }
 // myFunc()
 
-
 // {
 //   var x = 2;
 // }
 // console.log(x) //block scope
-
 
 // myFunction()
 // function myFunction() {
 //   car = 'KIA sonet'
 // }
 // console.log(car) //automatically global function
-
 
 // function outer() {
 //   var x = 421
@@ -636,7 +615,6 @@ let num = ''
 //   console.log(x)
 // }
 // outer()
-
 
 // function grand() {
 //   var grandPaa = 'David Misra'
@@ -684,7 +662,6 @@ let num = ''
 //   console.log('Dm Me!')
 // })
 
-
 // ...............................
 
 // function sayHello() {
@@ -693,14 +670,12 @@ let num = ''
 
 // setTimeout(sayHello, 2000);
 
-
 // const jarvis = setTimeout(`console.log('Jarvis')`, 2000)
 // const siri = setTimeout(`console.log('Siri')`, 4000)
 // const nexus = setTimeout(`console.log('Nexus')`, 6000)
 
 // clearInterval(siri)
 // clearTimeout(siri)
-
 
 // function makeFunc() {
 //   const name = "Mozilla";
@@ -766,8 +741,6 @@ let num = ''
 // maths.into(9, 4)
 // maths.sqr(4)
 
-
-
 //.............functions
 
 // function declaration
@@ -784,7 +757,6 @@ let num = ''
 // arrow function
 // const square = (num) => console.log(num ** 2)
 
-
 //.. normal v/s arrow function
 
 /// no arguments in arrow function
@@ -799,7 +771,6 @@ let num = ''
 // }
 // myFun('dummy', 'data', 'loading', 54) // arguments is not defined
 
-
 /// Arrow functions do not create their own this binding
 
 // const obj = {
@@ -812,7 +783,6 @@ let num = ''
 
 // obj.myFunc()
 
-
 // const obj = {
 //   name: 'dummy',
 //   age: 23,
@@ -822,13 +792,10 @@ let num = ''
 // }
 // obj.myFunc()
 
-
 /// Arrow functions cannot be used as constructors
 // go deep : https://www.freecodecamp.org/news/the-difference-between-arrow-functions-and-normal-functions/
 
-
 //..........................
-
 
 // const fruits = ['Apple', 'Grapes', 'Banana', 'Payapa', 'Orange']
 
@@ -855,7 +822,20 @@ let num = ''
 // https://medium.com/poka-techblog/simplify-your-javascript-use-map-reduce-and-filter-bd02c593cc2d
 
 // .................
-const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const months = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
 
 // const result = months.forEach((month) => {
 //   return month
@@ -890,7 +870,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 // })
 // console.log(monthM)
 
-
 // Reduce......
 // const dayInMonth = [31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 
@@ -919,7 +898,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 // const over25 = family.filter(family => family.age >= 25)
 // console.log('over25', over25)
 
-
 // const over24 = family.filter((family, index) => {
 //   return family.age <= 24
 // }).map((family) => {
@@ -928,7 +906,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 //   return family.includes('P')
 // })
 // console.log(over24)
-
 
 //.......................
 
@@ -949,7 +926,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 //   }
 //   return sum
 // }
-
 
 // function multiple(a, b = 1) {
 //   console.log(a * b)
@@ -974,7 +950,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 
 // const updateUser = { ...user, role: "HR" }
 // console.log(updateUser)
-
 
 // ......rest parameter
 
@@ -1002,7 +977,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 //   document.body.children[4].src =
 //     'https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014__340.jpg'
 // }
-
 
 // .......Selecting Elements
 // const allImages = document.images
@@ -1079,7 +1053,6 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 // const textNode = document.createTextNode('text');
 // value.appendChild(textNode)
 
-
 // container.appendChild(h1.cloneNode(true))
 
 //.....create Element
@@ -1142,14 +1115,81 @@ const months = ["January", "February", "March", "April", "May", "June", "July", 
 
 // add card onClick
 
-const Circles = document.querySelector('.circles')
-const Circle = document.querySelector('.circle')
+// const Circles = document.querySelector('.circles')
+// const Circle = document.querySelector('.circle')
 
-function addCircle() {
-  const addCircle = document.createElement('div')
-  addCircle.classList.add('circle')
+// let count = 1
+// function addCircle() {
+//   const addCircle = document.createElement('div')
+//   addCircle.innerHTML = count++
+//   addCircle.classList.add('circle')
 
-  Circles.appendChild(addCircle)
-}
+//   Circles.appendChild(addCircle)
+// }
 
-Circle.addEventListener('click', addCircle)
+// Circle.addEventListener('click', addCircle)
+
+// ...create multiCOLOR Banner
+
+// const LCD = document.querySelector(".lcd");
+
+// function fillColor(event) {
+//   function rndmColor(num) {
+//     return Math.random() * (num + 1);
+//   }
+
+//   const colorCode = `rgb(${rndmColor(255)}, ${rndmColor(255)}, ${rndmColor(
+//     255
+//   )})`;
+//   event.target.style.backgroundColor = colorCode;
+// }
+
+// LCD.addEventListener("click", fillColor);
+
+// form event.....
+
+const Input = document.querySelector("#input");
+const paragraph = document.querySelector("#inputValue");
+
+// Input.addEventListener("input", (e) => {
+//   // console.log(e);
+//   console.log(e.target.value);
+//   paragraph.innerHTML = e.target.value;
+// });
+
+// Input.addEventListener("change", (e) => {
+//   // console.log(e);
+//   console.log(e.target.value);
+//   paragraph.innerHTML = e.target.value;
+// });
+
+// Input.addEventListener("focus", (e) => {
+//   // console.log(e);
+//   console.log(e.target.value);
+//   paragraph.innerHTML = e.target.value;
+// });
+
+// Input.addEventListener("blur", (e) => {
+//   // console.log(e);
+//   console.log(e.target.value);
+//   paragraph.innerHTML = e.target.value;
+// });
+
+const form = document.querySelector("form");
+
+// form.addEventListener("click", (e) => {
+//   e.preventDefault();
+
+//   const formData = new FormData(form);
+
+//   for (const p of formData.entries()) {
+//     console.log(p);
+//   }
+// });
+
+// form.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   console.log("form submitted");
+// });
+
+// ......Kryboard events
