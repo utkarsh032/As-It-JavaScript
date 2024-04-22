@@ -1,661 +1,614 @@
 <!DOCTYPE html>
 <html lang="en">
-  <link>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Complete-JavaScript</title>
-  </head>
-  <body style="font-family: cursive">
-    <h1>Math in JavaScript</h1>
-    <h2>Mathematical Operators</h2>
-    <ol>
-      <li>Addition Operator: +</li>
-      <li>Subtraction Operator: -</li>
-      <li>Multiplication Operator: *</li>
-      <li>Division Operator: /</li>
-      <li>Remainder Operator: %</li>
-      <li>Exponentiation Operator: **</li>
-    </ol>
-    <h2>Math Object in JavaScript</h2>
-    <h3>Properties on Math Object</h3>
-    <ul>
-      <li>Math.PI</li>
-      <li>Math.SQRT2</li>
-      <li>Math.E</li>
-    </ul>
-    <h3>Methods on Math Object</h3>
-    <ul>
-      <li>Math.sqrt(x)</li>
-      <li>Math.pow(x, y)</li>
-      <li>Math.floor(x)</li>
-      <li>Math.ceil(x)</li>
-      <li>Math.round(x)</li>
-      <li>Math.random()</li>
-    </ul>
-    <p>8 / 0 = Infinity</p>
-    <p>-8 / 0 = -Infinity</p>
-    <hr />
-    <h1>Truthy and Falsy Values</h1>
-    <h2>Falsy Values</h2>
-    <ul>
-      <li>0</li>
-      <li>-0</li>
-      <li>NaN</li>
-      <li>''</li>
-      <li>undefined</li>
-      <li>null</li>
-    </ul>
+<link>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="style.css">
+<title>Complete-JavaScript</title>
+</head>
 
-    <hr />
+<body style="font-family: cursive">
+  <!-- <h1>Math in JavaScript</h1>
+  <h2>Mathematical Operators</h2>
+  <ol>
+    <li>Addition Operator: +</li>
+    <li>Subtraction Operator: -</li>
+    <li>Multiplication Operator: *</li>
+    <li>Division Operator: /</li>
+    <li>Remainder Operator: %</li>
+    <li>Exponentiation Operator: **</li>
+  </ol>
+  <h2>Math Object in JavaScript</h2>
+  <h3>Properties on Math Object</h3>
+  <ul>
+    <li>Math.PI</li>
+    <li>Math.SQRT2</li>
+    <li>Math.E</li>
+  </ul>
+  <h3>Methods on Math Object</h3>
+  <ul>
+    <li>Math.sqrt(x)</li>
+    <li>Math.pow(x, y)</li>
+    <li>Math.floor(x)</li>
+    <li>Math.ceil(x)</li>
+    <li>Math.round(x)</li>
+    <li>Math.random()</li>
+  </ul>
+  <p>8 / 0 = Infinity</p>
+  <p>-8 / 0 = -Infinity</p>
+  <hr />
+  <h1>Truthy and Falsy Values</h1>
+  <h2>Falsy Values</h2>
+  <ul>
+    <li>0</li>
+    <li>-0</li>
+    <li>NaN</li>
+    <li>''</li>
+    <li>undefined</li>
+    <li>null</li>
+  </ul> -->
 
-    <h1>Comparison Operators</h1>
-    <p>== equal to (equality) [it does implicit (automatic) conversion]</p>
-    <p>
-      === equal value and equal type (strict equality) [you have to do explicit
-      (manual) conversion]
-    </p>
-    <p>!= not equal</p>
-    <p>!== not equal value or not equal type (strict)</p>
-    <p>> greater than</p>
-    <p>< less than</p>
-    <p>>= greater than or equal to</p>
-    <p><h= less than or equal to</p>
+  <hr />
 
-    <hr />
+  <!-- <h1>Comparison Operators</h1>
+  <p>== equal to (equality) [it does implicit (automatic) conversion]</p>
+  <p>
+    === equal value and equal type (strict equality) [you have to do explicit
+    (manual) conversion]
+  </p>
+  <p>!= not equal</p>
+  <p>!== not equal value or not equal type (strict)</p>
+  <p>> greater than</p>
+  <p>
+    < less than</p>
+      <p>>= greater than or equal to</p>
+      <p>
+        <h= less than or equal to</p> -->
 
-    <h1>Logical Operators</h1>
-    <ul>
-      <li>&& (And)</li>
-      <li>|| (Or)</li>
-      <li>! (Not)</li>
-    </ul>
+  <hr />
 
-    <hr />
-    <h1>Decision Making in JavaScript</h1>
+  <!-- <h1>Logical Operators</h1>
+          <ul>
+            <li>&& (And)</li>
+            <li>|| (Or)</li>
+            <li>! (Not)</li>
+          </ul> -->
 
-    <hr />
-    <h1>Switch Statement in Javascript</h1>
+  <hr />
+  <!-- <h1>Decision Making in JavaScript</h1>
 
-    <hr />
-    <h1>Ternary Operator in Javascript</h1>
+          <hr />
+          <h1>Switch Statement in Javascript</h1>
 
-    <hr />
-    <h1>Visualize Variables Address</h1>
+          <hr />
+          <h1>Ternary Operator in Javascript</h1>
 
-    <hr />
-    <h1>Data Types in JavaScript</h1>
-    <h2>There are two types of data types in JavaScript.</h2>
-    <ol>
-      <li><p>Primitive (Value Types)</p></li>
-      <li><p>Non Primitive (Reference Types)</p></li>
-    </ol>
-    <h2>In this video we'll learn about primitive data types.</h2>
-    <h3>We can classify primitive data types in 7 categories.</h3>
-    <ol>
-      <li>number</li>
-      <li>string</li>
-      <li>boolean</li>
-      <li>undefined</li>
-      <li>null</li>
-      <li>bigint</li>
-      <li>symbol</li>
-    </ol>
-    <h2>
-      There is only one type of non primitive data type that is called object.
-    </h2>
-    <h3>Objects are further divided into three categories.</h3>
-    <ul>
-      <li>Object Literals</li>
-      <li>Arrays</li>
-      <li>Functions</li>
-    </ul>
+          <hr />
+          <h1>Visualize Variables Address</h1>
 
-    <hr />
+          <hr />
+          <h1>Data Types in JavaScript</h1> -->
+  <!-- <h2>There are two types of data types in JavaScript.</h2>
+          <ol>
+            <li>
+              <p>Primitive (Value Types)</p>
+            </li>
+            <li>
+              <p>Non Primitive (Reference Types)</p>
+            </li>
+          </ol>
+          <h2>In this video we'll learn about primitive data types.</h2>
+          <h3>We can classify primitive data types in 7 categories.</h3>
+          <ol>
+            <li>number</li>
+            <li>string</li>
+            <li>boolean</li>
+            <li>undefined</li>
+            <li>null</li>
+            <li>bigint</li>
+            <li>symbol</li>
+          </ol>
+          <h2>
+            There is only one type of non primitive data type that is called object.
+          </h2>
+          <h3>Objects are further divided into three categories.</h3>
+          <ul>
+            <li>Object Literals</li>
+            <li>Arrays</li>
+            <li>Functions</li>
+          </ul> -->
 
-    <h1>Arrays</h1>
-    <hr />
+  <hr />
 
-    <h1>Basic Array Methods</h1>
-    <ol>
-      <li>pop()</li>
-      <li>push()</li>
-      <li>shift()</li>
-      <li>unshift()</li>
-      <li>concat()</li>
-      <li>indexOf()</li>
-      <li>includes()</li>
-      <li>reverse()</li>
-      <li>sort()</li>
-      <li>slice()</li>
-      <li>splice()</li>
-    </ol>
+  <!-- <h1>Arrays</h1> -->
+  <hr />
 
-    <hr />
-    <h1>Compound Operators</h1>
-    <ul>
-      <li>
-        <p>Compound (Combined Assignment) Operators</p>
-        <ul>
-          <li>+= Addition Assignment Operator.</li>
-          <li>-= Subtraction Assignment Operator.</li>
-          <li>%= Remainder Assignment Operator.</li>
-          <li>*= Multiplication Assignment Operator.</li>
-          <li>/= Division Assignment Operator.</li>
-          <li>**= Exponentiation Assignment Operator.</li>
-        </ul>
-      </li>
-      <li>Increment ++</li>
-      <li>Decrement --</li>
-    </ul>
-    <hr />
+  <!-- <h1>Basic Array Methods</h1>
+          <ol>
+            <li>pop()</li>
+            <li>push()</li>
+            <li>shift()</li>
+            <li>unshift()</li>
+            <li>concat()</li>
+            <li>indexOf()</li>
+            <li>includes()</li>
+            <li>reverse()</li>
+            <li>sort()</li>
+            <li>slice()</li>
+            <li>splice()</li>
+          </ol> -->
 
-    <h1>Loop in JavaScript</h1>
-    <hr />
-    <h1>for Loop in JavaScript</h1>
-    <hr />
-    <h1>Do while Loop in JavaScript</h1>
-    <hr />
-    <h1>Execution Context in JavaScript</h1>
+  <hr />
+  <!-- <h1>Compound Operators</h1>
+          <ul>
+            <li>
+              <p>Compound (Combined Assignment) Operators</p>
+              <ul>
+                <li>+= Addition Assignment Operator.</li>
+                <li>-= Subtraction Assignment Operator.</li>
+                <li>%= Remainder Assignment Operator.</li>
+                <li>*= Multiplication Assignment Operator.</li>
+                <li>/= Division Assignment Operator.</li>
+                <li>**= Exponentiation Assignment Operator.</li>
+              </ul>
+            </li>
+            <li>Increment ++</li>
+            <li>Decrement --</li>
+          </ul> -->
+  <hr />
 
-    <hr />
-    <h1>Hoisting in JavaScript</h1>
-    <hr />
-    <h1>Global Scope vs Local Scope in Javascript</h1>
-    <hr />
-    <h1>Higher Order Function & Callback Functions</h1>
-    <hr />
-    <h1>setTimeout or setInterval functions</h1>
-    <hr />
-    <h1>for of vs for in Loop in JavaScript</h1>
-    <hr />
-    <h1>Map, Filter, Reduce in JavaScript</h1>
-    <hr />
-    <h1>Some Array method in JavaScript</h1>
-    <hr />
-    <h1>Argument in JavaScript</h1>
-    <hr />
-    <h1>BOM in JavaScript</h1>
-    <ul>
-      <li>location</li>
-      <li>history</li>
-      <li>innerHeight</li>
-      <li>innerWidth</li>
-      <li>open()</li>
-      <li>close()</li>
-      <li>resizeBy()</li>
-      <li>resizeTo()</li>
-      <li>moveTo()</li>
-      <li>moveBy()</li>
-      <li>scrollBy()</li>
-      <li>scroll()</li>
-      <li>scrollTo()</li>
-      <li>print()</li>
-      <li>document</li>
-    </ul>
+  <!-- <h1>Loop in JavaScript</h1>
+          <hr />
+          <h1>for Loop in JavaScript</h1>
+          <hr />
+          <h1>Do while Loop in JavaScript</h1>
+          <hr />
+          <h1>Execution Context in JavaScript</h1>
 
-    <h1>Real Js starts from here...</h1>
-    <p class="id1"></p>
-    <hr />
+          <hr />
+          <h1>Hoisting in JavaScript</h1>
+          <hr />
+          <h1>Global Scope vs Local Scope in Javascript</h1>
+          <hr />
+          <h1>Higher Order Function & Callback Functions</h1>
+          <hr />
+          <h1>setTimeout or setInterval functions</h1>
+          <hr />
+          <h1>for of vs for in Loop in JavaScript</h1>
+          <hr />
+          <h1>Map, Filter, Reduce in JavaScript</h1>
+          <hr />
+          <h1>Some Array method in JavaScript</h1>
+          <hr />
+          <h1>Argument in JavaScript</h1>
+          <hr /> -->
+  <!-- <h1>BOM in JavaScript</h1>
+          <ul>
+            <li>location</li>
+            <li>history</li>
+            <li>innerHeight</li>
+            <li>innerWidth</li>
+            <li>open()</li>
+            <li>close()</li>
+            <li>resizeBy()</li>
+            <li>resizeTo()</li>
+            <li>moveTo()</li>
+            <li>moveBy()</li>
+            <li>scrollBy()</li>
+            <li>scroll()</li>
+            <li>scrollTo()</li>
+            <li>print()</li>
+            <li>document</li>
+          </ul>
 
-    <h1><i>Frondend Development</i></h1>
-    <h2>Heading 2</h2>
-    <hr />
-    <p>
-      <b>Frontend development</b> is the development of the
-      <a
-        href="https://en.wikipedia.org/wiki/Graphical_user_interface"
-        target="_blank"
-        title="Graphical user interface"
-        >graphical user interface</a
-      >
-      of a website, through the use of
-      <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
-      <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
-      <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"
-        >JavaScript</a
-      >, so that users can view and interact with that website.
-    </p>
-    <img
-      src="/images/html-css-javascript.png"
-      alt="html-css-javascript"
-      style="width: 100%; max-width: 600px"
-      title="Frontend Roadmap"
-    />
+          <h1>Real Js starts from here...</h1>
+          <p class="id1"></p> -->
+  <hr />
 
-    <ul>
-      <li>
-        <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
-        standard markup language for documents designed to be displayed in a web
-        browser.
-      </li>
-      <br />
-      <li>
-        <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
-        language used for describing the presentation of a document written in a
-        markup language such as HTML or XML
-        <br />
-        <br />
-        <img
-          src="/images/css.png"
-          alt="css roadmap"
-          style="width: 100%; max-width: 600px"
-        />
-        <ol>
-          <li style="background-color: green"><p>Pure CSS</p></li>
-          <li>
-            <p>Bootstrap <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Tailwind <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Sass <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-      <li>
-        <p>
-          <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
-          language that is one of the core technologies of the World Wide Web,
-          alongside HTML and CSS. It is use to add functionality in the website.
-        </p>
-        <img
-          src="/images/javascript.png"
-          alt="javascript roadmap"
-          style="width: 100%; max-width: 600px"
-        />
+  <!-- <h1><i>Frondend Development</i></h1>
+          <h2>Heading 2</h2> -->
+  <hr />
+  <!-- <p>
+            <b>Frontend development</b> is the development of the
+            <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank"
+              title="Graphical user interface">graphical user interface</a>
+            of a website, through the use of
+            <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
+            <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
+            <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, so that users can view
+            and interact with that website.
+          </p>
+          <img src="/images/html-css-javascript.png" alt="html-css-javascript" style="width: 100%; max-width: 600px"
+            title="Frontend Roadmap" />
 
-        <ol type="a">
-          <li><p>Vanilla JS</p></li>
-          <li>
-            <p>jQuery <i>(Library)</i></p>
-          </li>
-          <li>
-            <p>React <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Angular <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Vue <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Typescript <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-    </ul>
+          <ul>
+            <li>
+              <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
+              standard markup language for documents designed to be displayed in a web
+              browser.
+            </li>
+            <br />
+            <li>
+              <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
+              language used for describing the presentation of a document written in a
+              markup language such as HTML or XML
+              <br />
+              <br />
+              <img src="/images/css.png" alt="css roadmap" style="width: 100%; max-width: 600px" />
+              <ol>
+                <li style="background-color: green">
+                  <p>Pure CSS</p>
+                </li>
+                <li>
+                  <p>Bootstrap <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Tailwind <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Sass <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p>
+                <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
+                language that is one of the core technologies of the World Wide Web,
+                alongside HTML and CSS. It is use to add functionality in the website.
+              </p>
+              <img src="/images/javascript.png" alt="javascript roadmap" style="width: 100%; max-width: 600px" />
 
-    <p style="text-align: center">All copyrights &copy; reserved</p>
+              <ol type="a">
+                <li>
+                  <p>Vanilla JS</p>
+                </li>
+                <li>
+                  <p>jQuery <i>(Library)</i></p>
+                </li>
+                <li>
+                  <p>React <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Angular <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Vue <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Typescript <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+          </ul>
 
-    <hr />
-    <h1>Selecting Elements</h1>
-    <h1 class="css-image"><i>Frondend Development</i></h1>
-    <h2>Heading 2</h2>
-    <h2>Heading 2</h2>
-    <hr />
-    <p>
-      <b>Frontend development</b> is the development of the
-      <a
-        href="https://en.wikipedia.org/wiki/Graphical_user_interface"
-        target="_blank"
-        title="Graphical user interface"
-        >graphical user interface</a
-      >
-      of a website, through the use of
-      <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
-      <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
-      <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"
-        >JavaScript</a
-      >, so that users can view and interact with that website.
-    </p>
-    <img
-      src="/images/html-css-javascript.png"
-      alt="html-css-javascript"
-      style="width: 100%; max-width: 600px"
-      title="Frontend Roadmap"
-    />
+          <p style="text-align: center">All copyrights &copy; reserved</p> -->
 
-    <ul>
-      <li>
-        <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
-        standard markup language for documents designed to be displayed in a web
-        browser.
-      </li>
-      <br />
-      <li>
-        <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
-        language used for describing the presentation of a document written in a
-        markup language such as HTML or XML
-        <br />
-        <br />
-        <img
-          src="/images/css.png"
-          alt="css roadmap"
-          style="width: 100%; max-width: 600px"
-          class="css-image"
-          id="css-image"
-        />
-        <ol>
-          <li style="background-color: green"><p>Pure CSS</p></li>
-          <li>
-            <p>Bootstrap <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Tailwind <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Sass <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-      <li>
-        <p>
-          <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
-          language that is one of the core technologies of the World Wide Web,
-          alongside HTML and CSS. It is use to add functionality in the website.
-        </p>
-        <img
-          src="/images/javascript.png"
-          alt="javascript roadmap"
-          style="width: 100%; max-width: 600px"
-        />
+  <hr />
+  <!-- <h1>Selecting Elements</h1>
+          <h1 class="css-image"><i>Frondend Development</i></h1>
+          <h2>Heading 2</h2>
+          <h2>Heading 2</h2> -->
+  <hr />
+  <!-- <p>
+            <b>Frontend development</b> is the development of the
+            <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank"
+              title="Graphical user interface">graphical user interface</a>
+            of a website, through the use of
+            <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
+            <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
+            <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, so that users can view
+            and interact with that website.
+          </p>
+          <img src="/images/html-css-javascript.png" alt="html-css-javascript" style="width: 100%; max-width: 600px"
+            title="Frontend Roadmap" />
 
-        <ol type="a">
-          <li><p>Vanilla JS</p></li>
-          <li>
-            <p>jQuery <i>(Library)</i></p>
-          </li>
-          <li>
-            <p>React <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Angular <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Vue <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Typescript <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-    </ul>
-    <hr />
-    <h1 id="text">Difference between innerText and textContent</h1>
-    <hr />
-    <h1 class="my-heading">This is all about attributes.</h1>
-    <h1 class="css-image"><i>Frondend Development</i></h1>
-    <h2 class="heading-1" id="hii" hello="world" procodrr="anurag">
-      Heading 2
-    </h2>
-    <h2 procodrr="akash">Heading 2</h2>
-    <hr />
-    <p>
-      <b>Frontend development</b> is the development of the
-      <a
-        href="https://en.wikipedia.org/wiki/Graphical_user_interface"
-        target="_blank"
-        title="Graphical user interface"
-        >graphical user interface</a
-      >
-      of a website, through the use of
-      <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
-      <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
-      <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript"
-        >JavaScript</a
-      >, so that users can view and interact with that website.
-    </p>
-    <img
-      src="/images/html-css-javascript.png"
-      alt="html-css-javascript"
-      style="width: 100%; max-width: 600px"
-      title="Frontend Roadmap"
-    />
+          <ul>
+            <li>
+              <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
+              standard markup language for documents designed to be displayed in a web
+              browser.
+            </li>
+            <br />
+            <li>
+              <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
+              language used for describing the presentation of a document written in a
+              markup language such as HTML or XML
+              <br />
+              <br />
+              <img src="/images/css.png" alt="css roadmap" style="width: 100%; max-width: 600px" class="css-image"
+                id="css-image" />
+              <ol>
+                <li style="background-color: green">
+                  <p>Pure CSS</p>
+                </li>
+                <li>
+                  <p>Bootstrap <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Tailwind <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Sass <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p>
+                <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
+                language that is one of the core technologies of the World Wide Web,
+                alongside HTML and CSS. It is use to add functionality in the website.
+              </p>
+              <img src="/images/javascript.png" alt="javascript roadmap" style="width: 100%; max-width: 600px" />
 
-    <ul>
-      <li>
-        <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
-        standard markup language for documents designed to be displayed in a web
-        browser.
-      </li>
-      <br />
-      <li>
-        <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
-        language used for describing the presentation of a document written in a
-        markup language such as HTML or XML
-        <br />
-        <br />
-        <img
-          src="/images/css.png"
-          alt="css roadmap"
-          style="width: 100%; max-width: 600px"
-          class="css-image"
-          id="css-image"
-        />
-        <ol>
-          <li style="background-color: green"><p>Pure CSS</p></li>
-          <li>
-            <p>Bootstrap <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Tailwind <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Sass <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-      <li>
-        <p>
-          <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
-          language that is one of the core technologies of the World Wide Web,
-          alongside HTML and CSS. It is use to add functionality in the website.
-        </p>
-        <img
-          src="/images/javascript.png"
-          alt="javascript roadmap"
-          style="width: 100%; max-width: 600px"
-        />
+              <ol type="a">
+                <li>
+                  <p>Vanilla JS</p>
+                </li>
+                <li>
+                  <p>jQuery <i>(Library)</i></p>
+                </li>
+                <li>
+                  <p>React <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Angular <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Vue <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Typescript <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li> 
+          </ul> -->
+  <hr />
+  <!-- <h1 id="text">Difference between innerText and textContent</h1>
+          <hr />
+          <h1 class="my-heading">This is all about attributes.</h1>
+          <h1 class="css-image"><i>Frondend Development</i></h1>
+          <h2 class="heading-1" id="hii" hello="world" procodrr="anurag">
+            Heading 2
+          </h2>
+          <h2 procodrr="akash">Heading 2</h2> -->
+  <hr />
+  <!-- <p>
+            <b>Frontend development</b> is the development of the
+            <a href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank"
+              title="Graphical user interface">graphical user interface</a>
+            of a website, through the use of
+            <a target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
+            <a target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
+            <a target="_blank" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, so that users can view
+            and interact with that website.
+          </p>
+          <img src="/images/html-css-javascript.png" alt="html-css-javascript" style="width: 100%; max-width: 600px"
+            title="Frontend Roadmap" />
 
-        <ol type="a">
-          <li><p>Vanilla JS</p></li>
-          <li>
-            <p>jQuery <i>(Library)</i></p>
-          </li>
-          <li>
-            <p>React <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Angular <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Vue <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Typescript <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-    </ul>
+          <ul>
+            <li>
+              <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
+              standard markup language for documents designed to be displayed in a web
+              browser.
+            </li>
+            <br />
+            <li>
+              <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
+              language used for describing the presentation of a document written in a
+              markup language such as HTML or XML
+              <br />
+              <br />
+              <img src="/images/css.png" alt="css roadmap" style="width: 100%; max-width: 600px" class="css-image"
+                id="css-image" />
+              <ol>
+                <li style="background-color: green">
+                  <p>Pure CSS</p>
+                </li>
+                <li>
+                  <p>Bootstrap <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Tailwind <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Sass <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p>
+                <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
+                language that is one of the core technologies of the World Wide Web,
+                alongside HTML and CSS. It is use to add functionality in the website.
+              </p>
+              <img src="/images/javascript.png" alt="javascript roadmap" style="width: 100%; max-width: 600px" />
 
-    <p style="text-align: center">All copyrights &copy; reserved</p>
-    <hr />
+              <ol type="a">
+                <li>
+                  <p>Vanilla JS</p>
+                </li>
+                <li>
+                  <p>jQuery <i>(Library)</i></p>
+                </li>
+                <li>
+                  <p>React <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Angular <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Vue <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Typescript <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+          </ul>
 
-    <h1 id="style">Style by JavaScript</h1>
-    <h1 class="css-image"><i>Frondend Development</i></h1>
-    <h2 class="heading-1" id="hii" hello="world" procodrr="anurag">
-      Heading 2
-    </h2>
-    <h2 procodrr="akash">Heading 2</h2>
-    <hr />
-    <p>
-      <b>Frontend development</b> is the development of the
-      <a
-        class="my-link hii hello"
-        href="https://en.wikipedia.org/wiki/Graphical_user_interface"
-        target="_blank"
-        title="Graphical user interface"
-        >graphical user interface</a
-      >
-      of a website, through the use of
-      <a
-        class="my-link hello"
-        target="_blank"
-        href="https://en.wikipedia.org/wiki/HTML"
-        >HTML</a
-      >,
-      <a
-        class="my-link"
-        target="_blank"
-        href="https://en.wikipedia.org/wiki/CSS"
-        >CSS</a
-      >, and
-      <a
-        class="my-link"
-        target="_blank"
-        href="https://en.wikipedia.org/wiki/JavaScript"
-        >JavaScript</a
-      >, so that users can view and interact with that website.
-    </p>
-    <img
-      src="/images/html-css-javascript.png"
-      alt="html-css-javascript"
-      style="width: 100%; max-width: 600px"
-      title="Frontend Roadmap"
-    />
+          <p style="text-align: center">All copyrights &copy; reserved</p> -->
+  <hr />
 
-    <ul>
-      <li>
-        <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
-        standard markup language for documents designed to be displayed in a web
-        browser.
-      </li>
-      <br />
-      <li>
-        <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
-        language used for describing the presentation of a document written in a
-        markup language such as HTML or XML
-        <br />
-        <br />
-        <img
-          src="/images/css.png"
-          alt="css roadmap"
-          style="width: 100%; max-width: 600px"
-          class="css-image"
-          id="css-image"
-        />
-        <ol>
-          <li style="background-color: green"><p>Pure CSS</p></li>
-          <li>
-            <p>Bootstrap <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Tailwind <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Sass <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-      <li>
-        <p>
-          <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
-          language that is one of the core technologies of the World Wide Web,
-          alongside HTML and CSS. It is use to add functionality in the website.
-        </p>
-        <img
-          src="/images/javascript.png"
-          alt="javascript roadmap"
-          style="width: 100%; max-width: 600px"
-        />
+  <!-- <h1 id="style">Style by JavaScript</h1>
+          <h1 class="css-image"><i>Frondend Development</i></h1>
+          <h2 class="heading-1" id="hii" hello="world" procodrr="anurag">
+            Heading 2
+          </h2>
+          <h2 procodrr="akash">Heading 2</h2> -->
+  <hr />
+  <!-- <p>
+            <b>Frontend development</b> is the development of the
+            <a class="my-link hii hello" href="https://en.wikipedia.org/wiki/Graphical_user_interface" target="_blank"
+              title="Graphical user interface">graphical user interface</a>
+            of a website, through the use of
+            <a class="my-link hello" target="_blank" href="https://en.wikipedia.org/wiki/HTML">HTML</a>,
+            <a class="my-link" target="_blank" href="https://en.wikipedia.org/wiki/CSS">CSS</a>, and
+            <a class="my-link" target="_blank" href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>, so that
+            users can view and interact with that website.
+          </p>
+          <img src="/images/html-css-javascript.png" alt="html-css-javascript" style="width: 100%; max-width: 600px"
+            title="Frontend Roadmap" />
 
-        <ol type="a">
-          <li><p>Vanilla JS</p></li>
-          <li>
-            <p>jQuery <i>(Library)</i></p>
-          </li>
-          <li>
-            <p>React <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Angular <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Vue <i>(Framework)</i></p>
-          </li>
-          <li>
-            <p>Typescript <i>(Preprocessor)</i></p>
-          </li>
-        </ol>
-      </li>
-    </ul>
+          <ul>
+            <li>
+              <b>HTML</b>: The HyperText Markup Language or <i>HTML</i> is the
+              standard markup language for documents designed to be displayed in a web
+              browser.
+            </li>
+            <br />
+            <li>
+              <b>CSS</b>: Cascading Style Sheets <i>(CSS)</i> is a style sheet
+              language used for describing the presentation of a document written in a
+              markup language such as HTML or XML
+              <br />
+              <br />
+              <img src="/images/css.png" alt="css roadmap" style="width: 100%; max-width: 600px" class="css-image"
+                id="css-image" />
+              <ol>
+                <li style="background-color: green">
+                  <p>Pure CSS</p>
+                </li>
+                <li>
+                  <p>Bootstrap <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Tailwind <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Sass <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+            <li>
+              <p>
+                <b>JavaScript</b>: JavaScript often abbreviated JS, is a programming
+                language that is one of the core technologies of the World Wide Web,
+                alongside HTML and CSS. It is use to add functionality in the website.
+              </p>
+              <img src="/images/javascript.png" alt="javascript roadmap" style="width: 100%; max-width: 600px" />
 
-    <hr />
+              <ol type="a">
+                <li>
+                  <p>Vanilla JS</p>
+                </li>
+                <li>
+                  <p>jQuery <i>(Library)</i></p>
+                </li>
+                <li>
+                  <p>React <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Angular <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Vue <i>(Framework)</i></p>
+                </li>
+                <li>
+                  <p>Typescript <i>(Preprocessor)</i></p>
+                </li>
+              </ol>
+            </li>
+          </ul> -->
 
-    <h1>Access Parent Sibling & Children Elements using JavaScript</h1>
-    <h1>Element v/s Node</h1>
-    <hr />
-    <h1>append and appendChild?</h1>
-    <div id="container">
-      <div id="card">1</div>
-      <!-- .card*100{$} -->
-    </div>
-    <hr />
-    <h1>document.createElement</h1>
-    <div class="container">
-      <!-- <img id="img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"> -->
-      <!-- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png">
+  <hr />
+
+  <!-- <h1>Access Parent Sibling & Children Elements using JavaScript</h1>
+          <h1>Element v/s Node</h1>
+          <hr />
+          <h1>append and appendChild?</h1>
+          <div id="container">
+            <div id="card">1</div>
+            <!-- .card*100{$} 
+          </div> -->
+  <hr />
+  <!-- <h1>document.createElement</h1>
+          <div class="container">
+             <img id="img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png"> -->
+  <!-- <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png">
       <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png">
-      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"> -->
+      <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png"> 
+          </div>-->
+  <hr />
+  <!-- <button id="btn">Change BG</button> -->
+  <hr />
+
+  <!-- on everyclick add a circle -->
+  <!-- <div class="circles">
+            <div class="circle">+</div>
+          </div> -->
+
+  <hr />
+  <!-- <h1>LCD COLOR FILLUP</h1>
+          <div class="lcd">
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+            <div class="tile"></div>
+          </div> -->
+  <hr />
+
+  <!-- <h1>Form event & Event object</h1>
+          <form action="/search">
+            <input type="text" id="firstname" name="firstname" />
+            <input type="text" id="lastname" name="lastname" />
+            <button>Submit</button>
+          </form>
+          <p id="inputValue"></p> -->
+  <hr />
+
+  <!-- <h1 id="events">Keyboard Events</h1>
+          <input type="text" /> -->
+
+  <hr />
+  <h1 draggable="true">Mouse Event Listeners</h1>
+          <div class="container">
+            <div class="card add-card" title="Add New Card"><span>+</span></div>
+          </div>
+  <hr />
+  <!-- <h1>Event Bubbling</h1>
+  <div class="green">
+    <div class="white">
+      <div class="red"><p class="centerText">O</p></div>
     </div>
-    <hr />
-    <button id="btn">Change BG</button>
-    <hr />
+  </div> -->
+  <hr />
+  
+  <hr />
 
-   <!-- on everyclick add a circle -->
-   <div class="circles">
-<div class="circle">+</div>
-   </div>
+  <script src="script.js"></script>
+</body>
 
-    <hr />
-    <h1>LCD COLOR FILLUP</h1>
-    <div class="lcd">
-      <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-  <div class="tile"></div>
-    </div>
-    <hr />
-
-    <h1>Form event & Event object</h1>
-    <form action="/search">
-      <input type="text" id="firstname" name="firstname"/>
-      <input type="text" id="lastname" name="lastname"/>
-      <button>Submit</button>
-    </form>
-    <p id="inputValue"></p>
-    <hr />
-
-    <h1>Keyboard Events<h1/>
-      <h3>Key-up, Key-down & Key-Press</h3>
-
-    <hr />
-
-    <script src="script.js"></script>
-  </body>
 </html>

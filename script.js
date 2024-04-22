@@ -1148,8 +1148,8 @@ const months = [
 
 // form event.....
 
-const Input = document.querySelector("#input");
-const paragraph = document.querySelector("#inputValue");
+// const Input = document.querySelector("#input");
+// const paragraph = document.querySelector("#inputValue");
 
 // Input.addEventListener("input", (e) => {
 //   // console.log(e);
@@ -1175,7 +1175,7 @@ const paragraph = document.querySelector("#inputValue");
 //   paragraph.innerHTML = e.target.value;
 // });
 
-const form = document.querySelector("form");
+// const form = document.querySelector("form");
 
 // form.addEventListener("click", (e) => {
 //   e.preventDefault();
@@ -1193,3 +1193,231 @@ const form = document.querySelector("form");
 // });
 
 // ......Kryboard events
+
+// const h1 = document.querySelector("#events");
+// const input = document.querySelector("input");
+
+// window.addEventListener('keypress', (e) => {
+//     console.log('Code: ',e.code);
+//     console.log('Value: ', e.key);
+// })
+
+// window.addEventListener('keyup', (e) => {
+//     console.log('Code: ',e.code);
+//     console.log('Value: ', e.key);
+// })
+
+// window.addEventListener("keydown", (e) => {
+//   console.log("Code: ", e.code);
+//   console.log("Value: ", e.key);
+// });
+
+// ..... Mouse Events
+
+const h1 = document.querySelector("h1");
+const addCardButton = document.querySelector(".card");
+const container = document.querySelector(".container");
+
+let count = 0;
+
+// addCardButton.addEventListener("click", () => {
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener("dblclick", () => {
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener("mousedown", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener('mouseup', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener('mouseenter', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener('mouseleave', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener("mousemove", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener('mouseout', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener("mouseover", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// document.addEventListener("wheel", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// document.addEventListener("scroll", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener("touchstart", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener("touchend", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// h1.addEventListener("drag", (e) => {
+//   console.log(e);
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+//   container.append(newCard);
+// });
+
+// addCardButton.addEventListener('touchmove', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener('pointermove', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener('pointerenter', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// addCardButton.addEventListener('pointerleave', (e) => {
+//     console.log(e);
+//     const newCard = document.createElement('div')
+//     newCard.classList.add('card')
+//     newCard.innerText = count++
+//     container.append(newCard)
+// })
+
+// ...event bubbling
+
+// const grandParent = document.querySelector(".green");
+// const parent = document.querySelector(".white");
+// const child = document.querySelector(".red");
+// const CenterText = document.querySelector(".centerText");
+// let i = 0;
+
+// // e.stopPropagation();  // it stops function from in to out..(Event Buubbling)
+// // True or [capture:true] // it capture from ou to in.. (Event capture)
+
+// grandParent.addEventListener(
+//   "click",
+//   (e) => {
+//     // e.stopPropagation();
+//     console.log("grandParent clicked");
+//   },
+//   true
+// );
+
+// parent.addEventListener(
+//   "click",
+//   (e) => {
+//     e.stopPropagation();
+//     console.log("parent clicked");
+//   },
+//   true
+// );
+
+// child.addEventListener(
+//   "click",
+//   (e) => {
+//     e.stopPropagation();
+//     console.log("child clicked");
+//   },
+//   true
+// );
+
+// CenterText.addEventListener(
+//   "click",
+//   (e) => {
+//     e.stopPropagation();
+//     console.log("done");
+//   },
+//   true
+// );
+
+// ....
+
+// addCardButton.addEventListener("click", () => {
+//   const newCard = document.createElement("div");
+//   newCard.classList.add("card");
+//   newCard.innerText = count++;
+
+//   // newCard.addEventListener('click',()=>{
+//   //   newCard.remove()
+//   // })
+//   container.append(newCard);
+// });
