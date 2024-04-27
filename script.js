@@ -1422,4 +1422,18 @@ let count = 0;
 //   container.append(newCard);
 // });
 
+// ...local Storage in JavaScript
 
+const nameTag = document.querySelector(".name-tag");
+const nameField = document.querySelector(".name");
+
+// localStorage.myName = e.target.value;
+// localStorage.getItem("myName") = e.target.value
+
+nameField.addEventListener("input", (e) => {
+  // nameTag.innerText = localStorage.myName; //not good
+  // localStorage.myName = e.target.value;//not good
+
+  localStorage.setItem("myName", e.target.value);
+  nameTag.innerText = localStorage.myName;
+});

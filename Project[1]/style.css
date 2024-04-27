@@ -35,7 +35,7 @@ h1 > span {
   padding: 12px;
   display: flex;
   flex-direction: column;
-  height: 30%;
+  height: 40%;
 }
 
 .progress-label {
@@ -48,7 +48,7 @@ h1 > span {
   height: 30px;
   background-color: #ffd8d9;
   border-radius: 15px;
-  margin-bottom: 42px;
+  border: 1px solid #eeffe0;
 }
 
 .progress-value {
@@ -70,9 +70,12 @@ h1 > span {
 
 .error-label {
   font-size: 12px;
-  color: #ff5151;
-  margin-top: 4px;
+  color: #ffcc00;
+  padding: 4px;
+  text-decoration: underline;
+  font-style: italic;
   display: none;
+  position: absolute;
 }
 
 .show-error .error-label {
@@ -81,19 +84,20 @@ h1 > span {
 
 .goals {
   background-color: #f3f3f3;
+  border: 1px solid #ff5151;
   border-radius: 20px 20px 0 0;
   padding-top: 30px;
   padding-inline: 14px;
-  height: 55%;
+  height: 50%;
   display: flex;
   flex-direction: column;
-  gap: 12%;
+  gap: 10%;
 }
 
 .goal-container {
   display: flex;
   align-items: center;
-  border: 2px solid #ff5151;
+  border: 1px solid #ff5151;
   background-color: #fff;
   border-radius: 24px;
   padding-inline: 6px;
@@ -128,11 +132,6 @@ h1 > span {
   color: #5c4033;
   border-radius: 22px;
   padding: 12px;
-}
-
-.quote {
-  font-weight: 500;
-  text-align: center;
 }
 
 .made-with {
