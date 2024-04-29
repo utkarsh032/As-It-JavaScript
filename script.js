@@ -1426,14 +1426,49 @@ let count = 0;
 
 const nameTag = document.querySelector(".name-tag");
 const nameField = document.querySelector(".name");
+const ageTag = document.querySelector(".age-tag");
+const ageField = document.querySelector(".age");
+const Bio = document.querySelector(".bio");
+const clearBtn = document.querySelector(".clear");
 
 // localStorage.myName = e.target.value;
 // localStorage.getItem("myName") = e.target.value
 
-nameField.addEventListener("input", (e) => {
-  // nameTag.innerText = localStorage.myName; //not good
-  // localStorage.myName = e.target.value;//not good
+// nameTag.innerText = localStorage.getItem("myName");
+// nameField.addEventListener("input", (e) => {
+//   // nameTag.innerText = localStorage.myName; //not good
+//   // localStorage.myName = e.target.value;//not good
 
-  localStorage.setItem("myName", e.target.value);
-  nameTag.innerText = localStorage.myName;
+//   localStorage.setItem("myName", e.target.value);
+//   nameTag.innerText = localStorage.getItem("myName");
+// });
+
+// ageTag.innerText = localStorage.getItem("myAge");
+// ageField.addEventListener("input", (e) => {
+//   localStorage.setItem("myAge", e.target.value);
+//   ageTag.innerText = localStorage.getItem("myAge");
+// });
+
+// myData = {
+//   name: "",
+//   age: "",
+// };
+
+const myData = JSON.parse(localStorage.getItem("myData")) || {};
+
+nameField.addEventListener("input", (e) => {
+  myData.name = e.target.value;
+  localStorage.setItem("myData", JSON.stringify(myData));
+});
+
+ageField.addEventListener("input", (e) => {
+  myData.age = e.target.value;
+  localStorage.setItem("myData", JSON.stringify(myData));
+});
+
+Bio.innerText = `I am ${myData.name} ,${myData.age} years old`;
+
+clearBtn.addEventListener("click", () => {
+  // localStorage.removeItem("myData"); //remove specific data
+  localStorage.clear(); //delete complete data
 });

@@ -119,3 +119,8 @@ display: flex;
   justify-content: center;
   align-items: center;
 } */
+
+.data-container {
+  display: flex;
+  gap: 10px;
+}
